@@ -1,10 +1,40 @@
-/*--------------*/
-/* BODY STYLING */
-/*--------------*/
 html {
-	background: url(img/trumpwall.jpg) no-repeat center center fixed; 
+    background: url(img/trumpwall.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+p {
+    font-size: 7em;
+    color: black;
+    text-shadow: 4px 4px 8px white;
+}
+
+.headline {
+    position: fixed;
+    bottom: 10%;
+    left: 15%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    p {
+        font-size: 2.4em;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    p {
+        font-size: 3em;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    p {
+        font-size: 5em;
+        color: black;
+    }
 }
