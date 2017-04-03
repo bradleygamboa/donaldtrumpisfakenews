@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Spanish;
+    src: url(SpanishStencil.ttf);
+}
+
 html {
     background: url(img/trumpwall.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -7,6 +12,7 @@ html {
 }
 
 p {
+    font-family: Spanish;
     font-size: 7em;
     color: white;
     text-shadow: 8px 8px 8px black;
@@ -16,7 +22,7 @@ p {
 .headline {
     position: fixed;
     bottom: 10%;
-    left: 15%;
+    left: 25%;
 }
 
 /* Desktops and laptops ----------- */
@@ -30,7 +36,7 @@ p {
     .headline {
         position: fixed;
         bottom: 20%;
-        left: 13%;
+        left: 23%;
     }
 }
 
@@ -44,7 +50,7 @@ p {
     .headline {
         position: fixed;
         bottom: 20%;
-        left: 12%;
+        left: 22%;
     }
 }
 
@@ -58,7 +64,7 @@ p {
     .headline {
         position: fixed;
         bottom: 20%;
-        left: 20%;
+        left: 30%;
     }
 }
 
@@ -72,7 +78,7 @@ p {
     .headline {
         position: fixed;
         bottom: 15%;
-        left: 15%;
+        left: 25%;
     }
 }
 
@@ -86,7 +92,7 @@ p {
     .headline {
         position: fixed;
         bottom: 10%;
-        left: 15%;
+        left: 26%;
     }
 }
 
@@ -100,7 +106,7 @@ p {
     .headline {
         position: fixed;
         bottom: 10%;
-        left: 15%;
+        left: 25%;
     }
 }
 
@@ -114,6 +120,6 @@ p {
     .headline {
         position: fixed;
         bottom: 10%;
-        left: 15%;
+        left: 25%;
     }
 }
